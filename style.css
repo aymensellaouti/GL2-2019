@@ -1,0 +1,10 @@
+.lampe{
+    background-color: yellow;
+    border: black 1px solid;
+    width: 150px;
+    height: 150px;
+    padding: 25px;
+}
+.eteindre{
+    background-color: white;
+}

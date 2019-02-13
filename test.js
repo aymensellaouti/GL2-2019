@@ -1,21 +1,29 @@
-x=setTimeout(function () {
-    console.log('Bonjour');
-},2500);
 
-i=5;
-x=setInterval(function () {
-    if(i) {
-        console.log(i--);
-    } else {
-         clearInterval(x);
-    }
-});
+var lampe = document.querySelector('.lampe');
 
-t.forEach(function (valeur, indice, tab) {
-    console.log('t['+indice+']='+valeur);
-    console.log(tab);
-});
+setInterval(function () {
+    console.log('eteindre');
+   lampe.classList.toggle('eteindre');
+},1000)
 
-function compare(a,b) {
-    return a-b;
-}
+// x=setTimeout(function () {
+//     console.log('Bonjour');
+// },2500);
+//
+// i=5;
+// x=setInterval(function () {
+//     if(i) {
+//         console.log(i--);
+//     } else {
+//         clearInterval(x);
+//     }
+// });
+//
+// t.forEach(function (valeur, indice, tab) {
+//     console.log('t['+indice+']='+valeur);
+//     console.log(tab);
+// });
+//
+// function compare(a,b) {
+//     return a-b;
+// }
